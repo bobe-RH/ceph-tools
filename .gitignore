@@ -1,0 +1,27 @@
+# Credentials and cluster config
+ceph.client.admin.keyring
+ceph.conf
+
+# Data files
+*.csv
+*.tar
+*.tar.gz
+*.json
+osdpings
+core
+
+# Build/cache
+__pycache__/
+out/
+
+# Claude Code
+.claude/
+
+# Accidental SSH artifacts
+root@*
+
+# Raebaes extract
+raebaes-main.zip
+
+# Session notes
+SESSION_SUMMARY.md
