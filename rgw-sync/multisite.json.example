@@ -1,0 +1,21 @@
+{
+    "realm": "my-realm",
+    "zonegroup": "us",
+    "zones": [
+        {
+            "name": "us-east",
+            "ssh_host": "rgw-east.example.com",
+            "is_master": true
+        },
+        {
+            "name": "us-west",
+            "ssh_host": "rgw-west.example.com",
+            "is_master": false
+        }
+    ],
+    "defaults": {
+        "ssh_user": "root",
+        "ssh_port": 22,
+        "ssh_key": null
+    }
+}

@@ -1,0 +1,19 @@
+{
+    "clusters": [
+        {
+            "name": "production",
+            "ssh_host": "mon1.example.com"
+        },
+        {
+            "name": "staging",
+            "ssh_host": "mon2.example.com"
+        }
+    ],
+    "defaults": {
+        "ssh_user": "root",
+        "ssh_port": 22,
+        "ceph_conf": null,
+        "keyring": null,
+        "ssh_key": null
+    }
+}
